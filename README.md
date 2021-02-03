@@ -69,4 +69,5 @@ This library supports LCM1602A-14 LCD module I2C and SPI communication with Rasp
 ## Clear LCD Display
 
  - Clear the data on the display
+ 
  `lcd.clear() `
