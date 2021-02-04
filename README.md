@@ -2,7 +2,7 @@
 This library supports LCM1602A-14 LCD module I2C and SPI communication with Raspberry Pi Pico. 
 **The library file must be saved inside the Raspberry Pi Pico before uploading user's code**
 
-![enter image description here](https://drive.google.com/file/d/1Pqvs1BeKqlumSl2T9kL8lcYRpQm8i0t2/view?usp=sharing)
+![1](https://user-images.githubusercontent.com/34527010/106834022-980a3000-66cf-11eb-9ffe-f6febd25de34.PNG)
 
 ## Import LCD_SPI Library
 
