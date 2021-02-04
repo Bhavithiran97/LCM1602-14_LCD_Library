@@ -13,7 +13,10 @@ Step 2: Launch Thonny application and open the library file
 ![A](https://user-images.githubusercontent.com/34527010/106843779-cc86e780-66e1-11eb-8c48-b3e2f6f84fa6.PNG)
 
 
+
+
 Step 3: Save the library file into the Pi Pico
+
 ![b](https://user-images.githubusercontent.com/34527010/106843842-f213f100-66e1-11eb-91d2-75c8bf5d9850.png)
 
 ![d](https://user-images.githubusercontent.com/34527010/106843861-ff30e000-66e1-11eb-9453-80a9b40199e4.png)
