@@ -1,8 +1,26 @@
+
 # LCM1602A-14 LCD Library for MicroPython
 This library supports LCM1602A-14 LCD module I2C and SPI communication with Raspberry Pi Pico. 
-**The library file must be saved inside the Raspberry Pi Pico before uploading user's code**
 
 ![1](https://user-images.githubusercontent.com/34527010/106834382-4f06ab80-66d0-11eb-8b99-bbafdc4496bc.PNG)
+
+
+**The library file must be saved inside the Raspberry Pi Pico before uploading user's code**
+## Add Library
+Step 1: Download the library file (LCD_SPI.py or LCD_I2C.py)
+Step 2: Launch Thonny application and open the library file
+![A](https://user-images.githubusercontent.com/34527010/106843779-cc86e780-66e1-11eb-8c48-b3e2f6f84fa6.PNG)
+Step 3: Save the library file into the Pi Pico
+![b](https://user-images.githubusercontent.com/34527010/106843842-f213f100-66e1-11eb-91d2-75c8bf5d9850.png)
+
+![d](https://user-images.githubusercontent.com/34527010/106843861-ff30e000-66e1-11eb-9453-80a9b40199e4.png)
+
+Step 4: Save the library with the same name you downloaded with (LCD_SPI.py or LCD_I2C.py) **Must add .py at the back**
+![c](https://user-images.githubusercontent.com/34527010/106843969-40c18b00-66e2-11eb-96ba-baaa14f5506d.png)
+
+Click OK and the library is added to your Pi Pico
+
+
 
 ## Import LCD_SPI Library
 
