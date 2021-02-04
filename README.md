@@ -1,5 +1,5 @@
 
-# LCM1602A-14 LCD Library for MicroPython
+# LCM1602A-14 LCD MicroPython Library for Pi Pico
 This library supports LCM1602A-14 LCD module I2C and SPI communication with Raspberry Pi Pico. 
 
 ![1](https://user-images.githubusercontent.com/34527010/106834382-4f06ab80-66d0-11eb-8b99-bbafdc4496bc.PNG)
