@@ -28,7 +28,7 @@
 
 from LCD_SPI import *    #import LCD_SPI library
 
-lcd = LCD(sck=2, tx=3, cs=5)  # Create LCD object with LCD's sck pin connected to PICO's sck pin 2, LCD's sda pin connected to Pico's tx pin 3
+lcd = LCD(sck=2, tx=3, cs=5)  # Create LCD object with LCD's sck pin connected to PICO's sck pin 2, LCD's sda pin connected to Pico's tx pin 3, LCD's cs pin connected to Pico's CSn pin 5
 lcd.set_cursor(0,0)          # Set the cursor at first column, first row
 lcd.write("Hello World")     # Write string to the LCD   
 utime.sleep(1)               # Delay for 1 second
