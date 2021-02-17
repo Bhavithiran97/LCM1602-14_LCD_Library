@@ -14,6 +14,7 @@
 #  * 
 #  * Pico SDA 2    - LCD SDA
 #  * Pico SCL 3    - LCD SCK
+#  * Pico CSn 5    - LCD CS
 #  * Pico 3V3(OUT) - LCD VDD
 #  * Pico GND      - LCD VSS
 #  * 
