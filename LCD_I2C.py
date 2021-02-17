@@ -98,7 +98,7 @@ class LCD:
                 self.set_cursor(0,self.row+1)
         
     def _command(self,value):
-        self.temp[0] = 0x80
-        self.temp[1] = value
+        self.command[0] = 0x80
+        self.command[1] = value
         self.i2c.writeto(self.address,self.temp)
         utime.sleep_ms(1)
