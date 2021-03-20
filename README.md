@@ -47,7 +47,7 @@ Click OK and the library is added to your Pi Pico
 
  -  Create object using the class
  -  Create LCD object with LCD's sck pin connected to PICO's sck pin 2, LCD's sda pin 	connected to Pico's tx pin 3
- -  tx is MOSI for SPI communication
+ -  Here we use tx, it is same as MOSI for SPI communication
  
  `lcd = LCD(sck=2, tx=3, cs=5)`
 
