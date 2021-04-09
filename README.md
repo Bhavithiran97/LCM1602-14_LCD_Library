@@ -1,6 +1,6 @@
 
 
-# [LCM1602A-14](https://www.cytron.io/p-3v3-i2c-and-spi-1602-serial-character-lcd?tracking=b-py) LCD MicroPython Library for Pi Pico
+# [LCM1602A-14 LCD](https://www.cytron.io/p-3v3-i2c-and-spi-1602-serial-character-lcd?tracking=b-py) MicroPython Library for Pi Pico
 
 ![3](https://user-images.githubusercontent.com/34527010/114125322-cb17ac80-9928-11eb-904a-aa0278c1ec72.PNG)
 ![2](https://user-images.githubusercontent.com/34527010/114125326-cc48d980-9928-11eb-9d76-59170142d6f3.PNG)
