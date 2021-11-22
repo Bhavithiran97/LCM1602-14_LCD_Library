@@ -27,25 +27,36 @@
 #  *******************************************************************************/
 
 from LCD_I2C import *    #import LCD_I2C library
+import time
 
 lcd = LCD(sda=2, scl=3)  # Create LCD object with LCD's sda pin connected to PICO's sda pin 2, LCD's sck pin connected to Pico's scl pin 3
 lcd.set_cursor(0,0)          # Set the cursor at first column, first row
 lcd.write("Hello World")     # Write string to the LCD   
-utime.sleep(1)               # Delay for 1 second
+time.sleep(1)               # Delay for 1 second
+
+# scroll functions: scroll both lines right or left by one character cell
+for i in range(5):
+    lcd.scrollDisplayRight() # scroll message to right of LCD
+    time.sleep_ms(200)
+time.sleep(1)
+for i in range(5):
+    lcd.scrollDisplayLeft()  # scroll message back to the left of the LCD
+    time.sleep_ms(200)
+time.sleep(1)
 
 lcd.off()                    # Off the lcd display without clearing the data
-utime.sleep(1)
+time.sleep(1)
 
 lcd.on()                     # On LCD display without cursor and blink - cursor=False, blink=False - by default
-utime.sleep(1)
+time.sleep(1)
 
 lcd.on(cursor=False, blink=True) # On LCD display without cursor and with blink
-utime.sleep(1)
+time.sleep(1)
 
 lcd.on(cursor=True, blink=False) # On LCD display with cursor and without blink
-utime.sleep(1)
+time.sleep(1)
 
 lcd.on(cursor=True, blink=True)  # On LCD display with cursor and with blink
-utime.sleep(1.5)
+time.sleep(1.5)
 
 lcd.clear()                 # Clear the data in display

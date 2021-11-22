@@ -106,3 +106,19 @@ Click OK and the library is added to your Pi Pico
  - Clear the data on the display
  
  `lcd.clear() `
+
+## Scroll LCD Right
+
+ - shifts the whole LCD display one character cell to the right
+ 
+ `lcd.scrollDisplayRight()`
+ 
+(only currently implemented in the I2C library because I am lazy)
+
+## Scroll LCD Left
+
+ - shifts the whole LCD display one character cell to the left
+ 
+ `lcd.scrollDisplayLeft()`
+ 
+(only currently implemented in the I2C library because I am lazy)
